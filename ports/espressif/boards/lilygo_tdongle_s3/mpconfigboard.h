@@ -11,5 +11,9 @@
 #define MICROPY_HW_BOARD_NAME       "LILYGO T-Dongle S3"
 #define MICROPY_HW_MCU_NAME         "ESP32S3"
 
+#define MICROPY_HW_APA102_MOSI      (&pin_GPIO40)
+#define MICROPY_HW_APA102_SCK       (&pin_GPIO39)
+#define MICROPY_HW_APA102_COUNT     (1)
+
 #define DEFAULT_UART_BUS_RX         (&pin_GPIO44)
 #define DEFAULT_UART_BUS_TX         (&pin_GPIO43)
